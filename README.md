@@ -6,10 +6,10 @@ Each project showcases the application of machine learning algorithms to solve s
 <h3> Computer Vision: </h3>
 
  **1. CIFAR_10_with_Conv_Net:**
-In this project, an image-classification model was built on the CIFAR-10 dataset. The model achieved a validation accuracy of 90% and a validation loss of less than 0.63.
+In this project, an image-classification model (a custom-built CNN) was built on the CIFAR-10 dataset. The model achieved a validation accuracy of 90% and a validation loss of less than 0.63.
 
 **2. CIFAR_10_with_ResNet_56:**
-This project employs a pretrained ResNet-56 model instead of the custom-built CNN used inCIFAR_10_with_Conv_Net.
+This project employs transfer learning with a pre-trained ResNet-56 model instead of using a custom-built CNN as in CIFAR_10_with_Conv_Net.
 
 **3. Fashion_MNIST:**
 This project focuses on building an image-classification model on the Fashion MNIST dataset. The model achieved a validation accuracy of 94% and a validation loss of less than 0.38. 
